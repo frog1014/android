@@ -166,7 +166,7 @@ class MySpinner : AppCompatSpinner {
 
                 AppCompatSpinner::class.java.getDeclaredField("mPopup").apply {
                     isAccessible = true
-                    return (get(this@AESpinner) as androidx.appcompat.widget.ListPopupWindow).apply {
+                    return (get(this@MySpinner) as androidx.appcompat.widget.ListPopupWindow).apply {
                         isModal = b
                     }
                 }
@@ -196,7 +196,7 @@ class MySpinner : AppCompatSpinner {
     fun performClosedEvent() {
         mOpenInitiated = false
         isSelected = false
-        mListener?.apply { onSpinnerClosed(this@AESpinner) }
+        mListener?.apply { onSpinnerClosed(this@MySpinner) }
     }
 
     /**
