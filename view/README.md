@@ -1,0 +1,1 @@
+- spinner: hide the navigation bar when dropdown options from API 21 - 27
