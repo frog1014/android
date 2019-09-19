@@ -1,0 +1,1 @@
+- activity: hack for set locale @androidx.appcompat:appcompat:1.1.0

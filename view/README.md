@@ -1,1 +1,1 @@
-- spinner: hide the navigation bar when dropdown options from API 21 - 29
+- spinner: hide the navigation bar when dropdown options @API 21 - 29
